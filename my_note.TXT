@@ -1,0 +1,28 @@
+process temperature voltage
+http://vlsi-soc.blogspot.com/2012/06/pvt-and-how-they-impact-timing.html
+library analysis
+http://tech.tdzire.com/what-are-the-contents-of-a-lib/
+
+tcl: one command script
+rtl: rtl-level verilog code
+
+run_dc.tcl: this file do the all the job
+
+dc_shell just open a platform we use.
+
+assignment4 jitter
+https://www.coursehero.com/file/p374dcqt/721-Clock-Uncertainty-The-timing-uncertainty-of-a-clock-period-can-be-specified/
+https://vlsi.pro/set_clock_uncertainty/
+
+set_max_transition
+http://88physicaldesign.blogspot.com/2016/06/specifying-maximum-transition-constraint.html
+https://free-online-ebooks.appspot.com/enc/14.17/fetxtcmdref/set_max_transition.html
+
+
+sdc and tcl the command script is similar, but it is related to the verilog file.
+verilog file is divide into two aspect, structural model, and behavior model
+
+Register-transfer level is basically structual model
+建立模型：
+重中之重
+ 
